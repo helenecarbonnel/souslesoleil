@@ -1,0 +1,96 @@
+/* Write your CSS here */
+/* style.css */
+body{
+  background: rgb(270,270,270);
+  color: #F76C5E;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+h1{
+  font-family: Montserrat;
+  color: #cd4dcc;
+  font-weight: lighter;
+  font-size: 20px;
+}
+p{
+  font-family: Montserrat;
+  color: #cd4dcc;
+  font-weight: lighter;
+  font-size: 20px;
+}
+h2 {
+  font-family: Montserrat;
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+	color:white ;
+	text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #cd4dcc;
+}
+#banner {
+	text-align: center;
+	background-color: #400082;
+	color: red ;
+	padding: 10px ;
+	border-radius: 10%;
+}
+#banner img {
+	border-radius: 30%;
+}
+.clock {
+	text-align: center;
+	background-color: #f7beff;
+	color: blue ;
+	padding: 10px ;
+	border-radius: 10%;
+}
+.clock img {
+	border-radius: 30%;
+}
+.anywhere {
+	text-align: center;
+	background-color: #cd4dcc;
+	padding: 10px ;
+	border-radius: 10%;
+}
+.anywhere img {
+	border-radius: 30%;
+}
+.flexible{
+	text-align: center;
+	background-color: #f7beff;
+	padding: 10px ;
+	border-radius: 10%;
+}
+.flexible img {
+	border-radius: 30%;
+}
+.grid {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 15px auto;
+}
+.footer{
+	text-align: center;
+	background-color: #400082;
+	color: blue ;
+	padding: 5px ;
+	border-radius: 50%;
+}
+@media(max-width: 992px){
+  .grid {
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .grid {
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}

@@ -20,12 +20,12 @@ p{
 }
 h2 {
   font-family: Montserrat;
-  color: white;
+  color: rgb(260,260,260);
   font-weight: lighter;
   font-size: 20px;
 }
 a {
-	color:white ;
+	color:rgb(260,260,260);
 	text-decoration: none;
 }
 a:hover {
@@ -54,7 +54,7 @@ a:hover {
 }
 .anywhere {
 	text-align: center;
-	background-color: #cd4dcc;
+	background-color: #f7beff;
 	padding: 10px ;
 	border-radius: 10%;
 }
@@ -80,7 +80,7 @@ a:hover {
 	text-align: center;
 	background-color: #400082;
 	color: blue ;
-	padding: 5px ;
+	padding: 1px ;
 	border-radius: 50%;
 }
 @media(max-width: 992px){
